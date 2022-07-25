@@ -5,12 +5,15 @@
     "lib": ["ESNext"],
     "target": "ES2015",
     "module": "ES2015",
+    "jsx": "react",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true
+    "moduleResolution": "node",
+    "outDir": "lib"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "test/index.test.ts"],
+  "exclude": ["node_modules", "lib", "esm", "*.test.ts"],
   "$schema": "https://json.schemastore.org/tsconfig"
 }
