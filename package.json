@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks-library",
+  "name": "@sean/react-hooks",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -27,8 +27,12 @@
     "type": "git",
     "url": "git+https://github.com/Sean-lxy/react-hooks-library.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "hooks",
+    "library"
+  ],
+  "author": "Sean-lxy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sean-lxy/react-hooks-library/issues"

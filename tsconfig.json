@@ -1,19 +1,25 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "rootDir": "src",
-    "lib": ["ESNext"],
-    "target": "ES2015",
-    "module": "ES2015",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "jsx": "react",
+    "declaration": true,
+    "pretty": true,
+    "rootDir": "./src",
+    "sourceMap": false,
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "outDir": "lib"
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./lib",
+    "lib": ["es2018", "dom"],
+    "importHelpers": true
   },
   "include": ["src/**/*", "test/index.test.ts"],
-  "exclude": ["node_modules", "lib", "esm", "*.test.ts"],
+  "exclude": ["node_modules", "lib", "esm", "test", "stories", "*.test.ts"],
   "$schema": "https://json.schemastore.org/tsconfig"
 }
