@@ -7,5 +7,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "cSpell.words": ["pnpm", "sideeffects"]
+  "cSpell.words": ["pnpm", "sideeffects", "smilelxy"]
 }
